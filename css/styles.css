@@ -1,0 +1,86 @@
+* {
+  border: solid 2px;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  height: 75px;
+}
+
+.nav1float {
+  margin-right: 26%;
+}
+
+.nav2 {
+  background-color: gray;
+}
+
+.navmargin {
+  width: 80%;
+  margin: auto;
+  height: 75px;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border: solid 2px;
+  justify-content: space-between;
+}
+
+
+.substories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+  width: 100%;
+}
+
+.substory1, .substory2, .substory3 {
+  width: 32%;
+}
+
+.leftcol {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: solid 2px;
+}
+
+.rightcol {
+  align-self: flex-start;
+  width: 25%;
+  border: solid 2px;
+}
+
+.mainstorypic {
+  height: 320px;
+  width: auto;
+  float: right;
+  padding: 20px 15px;
+}
+
+.substorypic {
+  width: 100%;
+}
+
+.storypic {
+  float: right;
+  height: 200px;
+}
+
+.stories {
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+}
